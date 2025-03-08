@@ -1,0 +1,154 @@
+spawn sudo /usr/bin/bluetoothctl
+select 44:85:00:E6:F8:83
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 11:22:33:44:55:01 YFAH [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 9C:39:28:54:1D:15 A05-4Y4M
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 90:B1:44:A4:68:4A A51-YFAH
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 44:85:00:E6:F8:83 FreePBX3 #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 11:22:33:44:54:14 YNBT 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 38:4A:80:36:5F:2F A05-YNBT
+[0;94m[bluetooth][0m# [[0;92mNEW[0m] Controller 11:22:33:44:54:15 YGWX 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 80:19:70:D7:69:9D A04S-YGWX
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:12 iphone3 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 44:00:10:CB:89:2D iPhone3
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:08 G0QR 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device A4:9D:DD:EF:98:15 A05-G0QR
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:01 DAGR 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 38:4A:80:70:28:47 A05-DAGR
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:13 KM9Z 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 40:11:C3:C1:AD:CB A03s-KM9Z
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:07 EAMP 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device BC:52:74:C9:C7:EB A03S-EAMP
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:09 TCDX 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 7C:C2:25:BE:F6:B1 A03s-TCDX
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:02 1LAA 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device A8:4B:4D:F8:03:5E A03S-1LAA
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:16 iphone1 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 74:9E:AF:13:B3:F9 iPhone1
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:06 YPTJ 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 24:C6:13:59:E6:C2 A03-YPTJ
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:10 K38P 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 40:11:C3:34:A3:13 A03S-K38P
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:05 6SSV 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 38:4A:80:89:0E:E3 A05-6SSV
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:11 iphone2 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device BC:FE:D9:79:FD:5E iPhone2
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:03 N2NF 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 80:20:FD:A0:EB:6D A51-N2NF
+[0;94m[A05-YNBT][0m# select 44:85:00:E6:F8:83
+Controller 44:85:00:E6:F8:83 FreePBX3 #2 [default]
+[0;94m[A05-YNBT][0m# system-alias test
+[0;94m[A05-YNBT][0m#                        Changing test succeeded
+[0;94m[A05-YNBT][0m# quit
+[0;94m[A05-YNBT][0m#                        [[0;91mDEL[0m] Controller 11:22:33:44:55:01 YFAH 
+[0;94m[A05-YNBT][0m#                        [[0;91mDEL[0m] Controller 44:85:00:E6:F8:83 FreePBX3 #2 [default]
+[0;94m[A05-YNBT][0m# [[0;91mDEL[0m] Controller 11:22:33:44:54:14 YNBT 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:15 YGWX 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:12 iphone3 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:08 G0QR 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:01 DAGR 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:13 KM9Z 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:07 EAMP 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:09 TCDX 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:02 1LAA 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:16 iphone1 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:06 YPTJ 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:10 K38P 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:05 6SSV 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:11 iphone2 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:03 N2NF 
+[0;94m[bluetooth][0m# Waiting to connect to bluetoothd...                                   
+spawn sudo /usr/bin/bluetoothctl
+select 44:85:00:E6:F8:83
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 11:22:33:44:55:01 YFAH [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 9C:39:28:54:1D:15 A05-4Y4M
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 90:B1:44:A4:68:4A A51-YFAH
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 44:85:00:E6:F8:83 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 11:22:33:44:54:14 YNBT 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 38:4A:80:36:5F:2F A05-YNBT
+[0;94m[bluetooth][0m# [[0;92mNEW[0m] Controller 11:22:33:44:54:15 YGWX 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 80:19:70:D7:69:9D A04S-YGWX
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:12 iphone3 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 44:00:10:CB:89:2D iPhone3
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:08 G0QR 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device A4:9D:DD:EF:98:15 A05-G0QR
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:01 DAGR 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 38:4A:80:70:28:47 A05-DAGR
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:13 KM9Z 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 40:11:C3:C1:AD:CB A03s-KM9Z
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:07 EAMP 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device BC:52:74:C9:C7:EB A03S-EAMP
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:09 TCDX 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 7C:C2:25:BE:F6:B1 A03s-TCDX
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:02 1LAA 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device A8:4B:4D:F8:03:5E A03S-1LAA
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:16 iphone1 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 74:9E:AF:13:B3:F9 iPhone1
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:06 YPTJ 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 24:C6:13:59:E6:C2 A03-YPTJ
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:10 K38P 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 40:11:C3:34:A3:13 A03S-K38P
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:05 6SSV 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 38:4A:80:89:0E:E3 A05-6SSV
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:11 iphone2 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device BC:FE:D9:79:FD:5E iPhone2
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Controller 11:22:33:44:54:03 N2NF 
+[0;94m[A05-YNBT][0m#                        [[0;92mNEW[0m] Device 80:20:FD:A0:EB:6D A51-N2NF
+[0;94m[A05-YNBT][0m# select 44:85:00:E6:F8:83
+Controller 44:85:00:E6:F8:83 test [default]
+[0;94m[A05-YNBT][0m# system-alias Zain
+[0;94m[A05-YNBT][0m#                        Changing Zain succeeded
+[0;94m[A05-YNBT][0m# quit
+[0;94m[A05-YNBT][0m#                        [[0;91mDEL[0m] Controller 11:22:33:44:55:01 YFAH 
+[0;94m[A05-YNBT][0m#                        [[0;91mDEL[0m] Controller 44:85:00:E6:F8:83 test [default]
+[0;94m[A05-YNBT][0m# [[0;91mDEL[0m] Controller 11:22:33:44:54:14 YNBT 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:15 YGWX 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:12 iphone3 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:08 G0QR 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:01 DAGR 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:13 KM9Z 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:07 EAMP 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:09 TCDX 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:02 1LAA 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:16 iphone1 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:06 YPTJ 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:10 K38P 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:05 6SSV 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:11 iphone2 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 11:22:33:44:54:03 N2NF 
+[0;94m[bluetooth][0m# Waiting to connect to bluetoothd...                                   
+spawn sudo /usr/bin/bluetoothctl
+select 00:1A:7D:DA:71:15
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 freepbx.sangoma.local #3 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 freepbx.sangoma.local #4 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# select 00:1A:7D:DA:71:15
+Controller 00:1A:7D:DA:71:15 freepbx.sangoma.local #4 [default]
+[0;94m[bluetooth][0m# system-alias test
+[0;94m[bluetooth][0m#                         Changing test succeeded
+[0;94m[bluetooth][0m# quit
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 04:22:33:44:54:14 freepbx.sangoma.local #3 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 00:1A:7D:DA:71:15 freepbx.sangoma.local #4 [default]
+[0;94m[bluetooth][0m# [[0;91mDEL[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# Waiting to connect to bluetoothd...                                   
+spawn sudo /usr/bin/bluetoothctl
+select 00:1A:7D:DA:71:15
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 freepbx.sangoma.local #3 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# select 00:1A:7D:DA:71:15
+Controller 00:1A:7D:DA:71:15 test [default]
+[0;94m[bluetooth][0m# system-alias test
+[0;94m[bluetooth][0m#                         Changing test succeeded
+[0;94m[bluetooth][0m# quit
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 04:22:33:44:54:14 freepbx.sangoma.local #3 
+[0;94m[bluetooth][0m#                         [[0;91mDEL[0m] Controller 00:1A:7D:DA:71:15 test [default]
+[0;94m[bluetooth][0m# [[0;91mDEL[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# Waiting to connect to bluetoothd...                                   

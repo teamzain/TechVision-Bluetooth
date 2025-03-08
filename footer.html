@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        /* CSS for the whole page */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* CSS for the footer */
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1 0 auto; /* Allow content to expand */
+            /* Your page content styles */
+        }
+
+        footer {
+            flex-shrink: 0; /* Do not allow footer to shrink */
+            width: 100%;
+            text-align: center;
+            background-color: #f0f0f0; /* Adjust as needed */
+            padding: 10px 0; /* Adjust padding */
+        }
+
+        footer p {
+            margin: 0;
+        }
+        
+        footer a {
+            text-decoration: none; /* Remove underlines from links */
+        }
+
+        .inc {
+            font-size: 0.6em; /* Make "Inc." smaller */
+            vertical-align: baseline; /* Keep "Inc." on the same line */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <!-- Your page content -->
+    </div>
+    <footer>
+        <p>&copy; Developed by <a href="#"><strong>TechVision365 <span class="inc">Inc.</span></strong></a></p>
+        <!-- Add other footer content here -->
+    </footer>
+    
+</body>
+</html>

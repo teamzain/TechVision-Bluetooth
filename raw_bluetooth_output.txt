@@ -1,0 +1,579 @@
+spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# list
+Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+Controller 04:22:33:44:54:14 test2 
+Controller 00:1A:7D:DA:71:15 test 
+Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# select 04:22:33:44:54:14
+Controller 04:22:33:44:54:14 test2 [default]
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# devices
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# list
+Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+Controller 04:22:33:44:54:14 test2 
+Controller 00:1A:7D:DA:71:15 test 
+Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# select 04:22:33:44:54:14
+Controller 04:22:33:44:54:14 test2 [default]
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# devices
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# select 04:22:33:44:54:14
+Controller 04:22:33:44:54:14 test2 [default]
+[0;94m[bluetooth][0m# scan on
+[0;94m[bluetooth][0m#                         Discovery started
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Discovering: yes
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device E9:63:A2:E1:D0:41 Q30
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 47:6D:B8:E3:D7:20 47-6D-B8-E3-D7-20
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device E2:BB:9E:07:22:6B ET-2850 Series
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7B:D0:EA:1A:D4:7A 7B-D0-EA-1A-D4-7A
+[0;94m[bluetooth][0m# scan off
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 7B:D0:EA:1A:D4:7A RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E2:BB:9E:07:22:6B RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 47:6D:B8:E3:D7:20 TxPower is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 47:6D:B8:E3:D7:20 RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E9:63:A2:E1:D0:41 RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Discovering: no
+[0;94m[bluetooth][0m#                         Discovery stopped
+[0;94m[bluetooth][0m# devices
+Device 7C:C2:25:72:55:91 A03S-AVVF
+Device E9:63:A2:E1:D0:41 Q30
+Device 47:6D:B8:E3:D7:20 47-6D-B8-E3-D7-20
+Device E2:BB:9E:07:22:6B ET-2850 Series
+Device 7B:D0:EA:1A:D4:7A 7B-D0-EA-1A-D4-7A
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7B:D0:EA:1A:D4:7A 7B-D0-EA-1A-D4-7A
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device E2:BB:9E:07:22:6B ET-2850 Series
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 47:6D:B8:E3:D7:20 47-6D-B8-E3-D7-20
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device E9:63:A2:E1:D0:41 Q30
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# select 04:22:33:44:54:14
+Controller 04:22:33:44:54:14 test2 [default]
+[0;94m[bluetooth][0m# scan on
+[0;94m[bluetooth][0m#                         Discovery started
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Discovering: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 RSSI: -90
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E9:63:A2:E1:D0:41 RSSI: -53
+[0;94m[bluetooth][0m# scan off
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E9:63:A2:E1:D0:41 RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 RSSI is nil
+[0;94m[bluetooth][0m#                         Discovery stopped
+[0;94m[bluetooth][0m# pair 7C:C2:25:72:55:91
+Attempting to pair with 7C:C2:25:72:55:91
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Discovering: no
+[0;94m[bluetooth][0m# [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 Connected: yes
+[0;94m[A03S-AVVF][0m#                         Request confirmation
+[0;94m[A03S-AVVF][0m#                         [0;91m[agent][0m Confirm passkey 140268 (yes/no): spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7B:D0:EA:1A:D4:7A 7B-D0-EA-1A-D4-7A
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device E2:BB:9E:07:22:6B ET-2850 Series
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 47:6D:B8:E3:D7:20 47-6D-B8-E3-D7-20
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device E9:63:A2:E1:D0:41 Q30
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m# [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[A03S-AVVF][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[A03S-AVVF][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[A03S-AVVF][0m# agent on
+[0;94m[A03S-AVVF][0m#                         Agent registered
+[0;94m[A03S-AVVF][0m# devices
+[0;94m[A03S-AVVF][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# list
+Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+Controller 04:22:33:44:54:14 test2 
+Controller 00:1A:7D:DA:71:15 test 
+Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# select 09:00:00:00:00:16
+Controller 09:00:00:00:00:16 freepbx.sangoma.local [default]
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# devices
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# list
+Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+Controller 04:22:33:44:54:14 test2 
+Controller 00:1A:7D:DA:71:15 test 
+Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# select 09:00:00:00:00:16
+Controller 09:00:00:00:00:16 freepbx.sangoma.local [default]
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# devices
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 00:1A:7D:DA:71:15 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:00:10:00:90:00 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 94:65:9C:C3:AA:31 Pairable: yes
+[0;94m[bluetooth][0m# list
+Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+Controller 04:22:33:44:54:14 test2 
+Controller 00:1A:7D:DA:71:15 test 
+Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# select 09:00:00:00:00:16
+Controller 09:00:00:00:00:16 freepbx.sangoma.local [default]
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 00:1A:7D:DA:71:15 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:00:10:00:90:00 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 94:65:9C:C3:AA:31 Pairable: yes
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# devices
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 00:1A:7D:DA:71:15 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:00:10:00:90:00 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 94:65:9C:C3:AA:31 Pairable: yes
+[0;94m[bluetooth][0m# list
+Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+Controller 04:22:33:44:54:14 test2 
+Controller 00:1A:7D:DA:71:15 test 
+Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# select 09:00:00:00:00:16
+Controller 09:00:00:00:00:16 freepbx.sangoma.local [default]
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 00:1A:7D:DA:71:15 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:00:10:00:90:00 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 94:65:9C:C3:AA:31 Pairable: yes
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# devices
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# select 09:00:00:00:00:16
+Controller 09:00:00:00:00:16 freepbx.sangoma.local [default]
+[0;94m[bluetooth][0m# scan on
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 00:1A:7D:DA:71:15 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:00:10:00:90:00 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 94:65:9C:C3:AA:31 Pairable: yes
+[0;94m[bluetooth][0m#                         Discovery started
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Discovering: yes
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device E9:63:A2:E1:D0:41 Q30
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device E2:BB:9E:07:22:6B ET-2850 Series
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7B:D0:EA:1A:D4:7A 7B-D0-EA-1A-D4-7A
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 4C:A4:0A:C8:4C:84 4C-A4-0A-C8-4C-84
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 47:6D:B8:E3:D7:20 47-6D-B8-E3-D7-20
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E9:63:A2:E1:D0:41 RSSI: -96
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E9:63:A2:E1:D0:41 RSSI: -78
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7B:91:F4:02:25:B8 7B-91-F4-02-25-B8
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E9:63:A2:E1:D0:41 RSSI: -55
+[0;94m[bluetooth][0m# scan off
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 7B:91:F4:02:25:B8 TxPower is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 7B:91:F4:02:25:B8 RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 47:6D:B8:E3:D7:20 TxPower is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 47:6D:B8:E3:D7:20 RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 4C:A4:0A:C8:4C:84 TxPower is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 4C:A4:0A:C8:4C:84 RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 7B:D0:EA:1A:D4:7A RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E2:BB:9E:07:22:6B RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E9:63:A2:E1:D0:41 RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Discovering: no
+[0;94m[bluetooth][0m#                         Discovery stopped
+[0;94m[bluetooth][0m# devices
+Device E9:63:A2:E1:D0:41 Q30
+Device E2:BB:9E:07:22:6B ET-2850 Series
+Device 7B:D0:EA:1A:D4:7A 7B-D0-EA-1A-D4-7A
+Device 4C:A4:0A:C8:4C:84 4C-A4-0A-C8-4C-84
+Device 7C:C2:25:72:55:91 A03S-AVVF
+Device 47:6D:B8:E3:D7:20 47-6D-B8-E3-D7-20
+Device 7B:91:F4:02:25:B8 7B-91-F4-02-25-B8
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7B:91:F4:02:25:B8 7B-91-F4-02-25-B8
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 47:6D:B8:E3:D7:20 47-6D-B8-E3-D7-20
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 4C:A4:0A:C8:4C:84 4C-A4-0A-C8-4C-84
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7B:D0:EA:1A:D4:7A 7B-D0-EA-1A-D4-7A
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device E2:BB:9E:07:22:6B ET-2850 Series
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device E9:63:A2:E1:D0:41 Q30
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# select 09:00:00:00:00:16
+Controller 09:00:00:00:00:16 freepbx.sangoma.local [default]
+[0;94m[bluetooth][0m# scan on
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 00:1A:7D:DA:71:15 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:00:10:00:90:00 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 94:65:9C:C3:AA:31 Pairable: yes
+[0;94m[bluetooth][0m#                         Discovery started
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Discovering: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E9:63:A2:E1:D0:41 RSSI: -53
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E2:BB:9E:07:22:6B RSSI: -67
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 7B:91:F4:02:25:B8 RSSI: -81
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 7B:91:F4:02:25:B8 TxPower: 12
+[0;94m[bluetooth][0m# scan off
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 7B:91:F4:02:25:B8 TxPower is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device 7B:91:F4:02:25:B8 RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E2:BB:9E:07:22:6B RSSI is nil
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Device E9:63:A2:E1:D0:41 RSSI is nil
+[0;94m[bluetooth][0m#                         Discovery stopped
+[0;94m[bluetooth][0m# pair 7C:C2:25:72:55:91
+Attempting to pair with 7C:C2:25:72:55:91
+[0;94m[bluetooth][0m# Attempting to pair
+                        [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Discovering: no
+[0;94m[bluetooth][0m# [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 Connected: yes
+[0;94m[A03S-AVVF][0m#                         Request confirmation
+[0;94m[A03S-AVVF][0m#                         [0;91m[agent][0m Confirm passkey 394202 (yes/no): yes
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 Modalias: bluetooth:v0075p0100d0201
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 00001105-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 0000110a-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 0000110c-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 0000110e-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 00001112-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 00001115-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 00001116-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 0000111f-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 0000112f-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 00001132-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 00001200-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 00001800-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: 00001801-0000-1000-8000-00805f9b34fb
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 UUIDs: a82efa21-ae5c-3dde-9bbc-f16da7b16c5a
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 ServicesResolved: yes
+[0;94m[A03S-AVVF][0m#                         [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 Paired: yes
+[0;94m[A03S-AVVF][0m#                         Pairing successful
+[0;94m[A03S-AVVF][0m# Pairing successful
+                        [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 ServicesResolved: no
+[0;94m[A03S-AVVF][0m# [[0;93mCHG[0m] Device 7C:C2:25:72:55:91 Connected: no
+[0;94m[bluetooth][0m# Timeout occurred
+spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7B:91:F4:02:25:B8 7B-91-F4-02-25-B8
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 47:6D:B8:E3:D7:20 47-6D-B8-E3-D7-20
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 4C:A4:0A:C8:4C:84 4C-A4-0A-C8-4C-84
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7B:D0:EA:1A:D4:7A 7B-D0-EA-1A-D4-7A
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device E2:BB:9E:07:22:6B ET-2850 Series
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device E9:63:A2:E1:D0:41 Q30
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 00:1A:7D:DA:71:15 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:00:10:00:90:00 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 94:65:9C:C3:AA:31 Pairable: yes
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 00:1A:7D:DA:71:15 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:00:10:00:90:00 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 94:65:9C:C3:AA:31 Pairable: yes
+[0;94m[bluetooth][0m# list
+Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+Controller 04:22:33:44:54:14 test2 
+Controller 00:1A:7D:DA:71:15 test 
+Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 00:1A:7D:DA:71:15 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Pairable: yes
+[0;94m[bluetooth][0m# select 94:65:9C:C3:AA:31
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:00:10:00:90:00 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 94:65:9C:C3:AA:31 Pairable: yes
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# devices
+Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 00:1A:7D:DA:71:15 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:00:10:00:90:00 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 94:65:9C:C3:AA:31 Pairable: yes
+[0;94m[bluetooth][0m# list
+Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+Controller 04:22:33:44:54:14 test2 
+Controller 00:1A:7D:DA:71:15 test 
+Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# spawn sudo /usr/bin/bluetoothctl
+Waiting to connect to bluetoothd...[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 94:65:9C:C3:AA:31 freepbx.sangoma.local #1 [default]
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:00:10:00:90:00 freepbx.sangoma.local #2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 04:22:33:44:54:14 test2 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 00:1A:7D:DA:71:15 test 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Controller 09:00:00:00:00:16 freepbx.sangoma.local 
+[0;94m[bluetooth][0m#                         [[0;92mNEW[0m] Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m# agent on
+[0;94m[bluetooth][0m#                         Agent registered
+[0;94m[bluetooth][0m# select 94:65:9C:C3:AA:31
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 09:00:00:00:00:16 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 00:1A:7D:DA:71:15 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:22:33:44:54:14 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 04:00:10:00:90:00 Pairable: yes
+[0;94m[bluetooth][0m#                         [[0;93mCHG[0m] Controller 94:65:9C:C3:AA:31 Pairable: yes
+[0;94m[bluetooth][0m# power on
+[0;94m[bluetooth][0m#                         Changing power on succeeded
+[0;94m[bluetooth][0m# agent on
+Agent is already registered
+[0;94m[bluetooth][0m# devices
+Device 7C:C2:25:72:55:91 A03S-AVVF
+[0;94m[bluetooth][0m# 

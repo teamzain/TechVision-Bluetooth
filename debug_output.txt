@@ -1,0 +1,1 @@
+{"output":"[purevoip]\r\ntype=friend\r\n[purevoip]\r\ntype=friend\r\n[purevoip]\r\ntype=friend\r\nusername=zain\r\nsecret=5678\r\nhost=192.168.192.168\r\nport=22\r\ncontext=11\r\ndisallow=allow\r\nallow=aa\r\nallow=aaaa1\r\nnat=222\r\nqualify=no\r\ncanreinvite=yes\r\ntransport=udp\n"}

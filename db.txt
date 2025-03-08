@@ -1,0 +1,11 @@
+<?php
+// This file was generated at 2024-07-04T02:32:23+00:00
+	
+$amp_conf["AMPDBUSER"] = "freepbxuser";
+$amp_conf["AMPDBPASS"] = "Aa-112233";
+$amp_conf["AMPDBHOST"] = "localhost";
+$amp_conf["AMPDBNAME"] = "asterisk";
+$amp_conf["AMPDBENGINE"] = "mysql";
+$amp_conf["datasource"] = "";
+
+require_once "/var/www/html/admin/bootstrap.php";

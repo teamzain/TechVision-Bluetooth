@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    #preloader {
+      display: flex; /* Change this to flex to make the loader visible initially */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: white;
+      z-index: 9999;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    #preloader img {
+      width: 280px;
+      height: 300px; /* Adjust the size of the loader image */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+  <img src="images\loader.gif"/>
+</div>
+
+<!-- Your content goes here -->
+<div id="content">
+  <!-- Your gas agency files and other content -->
+</div>
+
+<script>
+  // Function to show the preloader
+  function showPreloader() {
+    document.getElementById('preloader').style.display = 'flex';
+  }
+
+  // Function to hide the preloader
+  function hidePreloader() {
+    document.getElementById('preloader').style.display = 'none';
+  }
+
+  // Simulate a file processing operation (replace this with your actual logic)
+  function processFiles() {
+    // Simulate processing time (replace this with your actual file processing logic)
+    setTimeout(function () {
+      // Your file processing logic goes here
+
+      // Hide the preloader when processing is complete
+      hidePreloader();
+    }, 2000); // Adjust the time as needed
+  }
+
+  // Trigger the file processing function when the page loads (you can call this function as needed)
+  window.onload = function () {
+    processFiles();
+  };
+</script>
+
+</body>
+</html>
